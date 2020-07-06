@@ -1,3 +1,4 @@
+import 'package:G_Attendence/pages/att_detail.dart';
 import 'package:G_Attendence/pages/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
