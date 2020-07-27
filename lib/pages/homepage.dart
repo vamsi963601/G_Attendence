@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  final String url ="http://3.134.95.206/GAtt/api/modules/test.php?/=login";
+  final String url ="http://3.6.138.40/GAtt/api/modules/test.php?/=login";
   ProgressDialog pd;
   String userid;
   String password,urlTB;
@@ -218,8 +218,8 @@ List course,att;
   }
 
   Future<String> getCoursesData() async{
-    final String url = 'http://3.134.95.206/GAtt/api/modules/test.php?/=getCourses';
-    final String url1 = 'http://3.134.95.206/GAtt/api/modules/test.php?/=getTodayAtt';
+    final String url = 'http://3.6.138.40/GAtt/api/modules/test.php?/=getCourses';
+    final String url1 = 'http://3.6.138.40/GAtt/api/modules/test.php?/=getTodayAtt';
     var sp = await SharedPreferences.getInstance();
     String uid = sp.getString("user_id");
     http.Response response = await http.post(Uri.encodeFull(url),
