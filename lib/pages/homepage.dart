@@ -165,6 +165,8 @@ class _HomePageState extends State<HomePage> {
       }
       else{
         progress(context);
+        print(userid);
+        print(password);
         _checkLogin(userid,password);
       }
   }
