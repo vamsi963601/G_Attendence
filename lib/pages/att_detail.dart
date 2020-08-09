@@ -53,7 +53,6 @@ class _Att_detailState extends State<Att_detail> {
           // Image.file(file)
         ],
       ),
-      
     );
   }
 
@@ -81,7 +80,7 @@ class _Att_detailState extends State<Att_detail> {
 
   //   );
   // }
-  final String phpEndPoint = 'http://35.154.161.95:3000/detect-face';
+  final String phpEndPoint = 'http://3.6.138.40:3000/detect-face';
 //final String nodeEndPoint = 'http://192.168.43.171:3000/image';
   File file;
   String responseJson;
@@ -116,12 +115,8 @@ class _Att_detailState extends State<Att_detail> {
       students.add(student);
     }
 
-
-    
-
     //print('This is the API response: $responseJson');
   }
-  
 
 //  void _upload() {
 //   //  if (file == null) return;
