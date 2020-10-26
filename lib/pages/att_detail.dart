@@ -80,7 +80,7 @@ class _Att_detailState extends State<Att_detail> {
 
   //   );
   // }
-  final String phpEndPoint = 'http://3.6.138.40:3000/detect-face';
+  final String phpEndPoint = 'http://65.0.84.114:3000/detect-face';
 //final String nodeEndPoint = 'http://192.168.43.171:3000/image';
   File file;
   String responseJson;
