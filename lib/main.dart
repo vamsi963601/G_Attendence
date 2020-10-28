@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
         resizeToAvoidBottomInset: false,
         resizeToAvoidBottomPadding: false,
         appBar: AppBar(
-          title: Text("G-Attendence", style: TextStyle(fontWeight: FontWeight.w400),),
+          title: Text(
+            "G-Attendence",
+            style: TextStyle(fontWeight: FontWeight.w400),
+          ),
           backgroundColor: Color.fromRGBO(177, 4, 14, 1),
         ),
         body: HomePage(),

@@ -1,4 +1,4 @@
-# G_Attendence
+# G_Attendance
 
 A new Flutter project.
 
